@@ -4,8 +4,9 @@ Yet another Bash functions 'library'
 Here will be dragons
 
 ## Guidelines
-- No `eval`
-- Focus on logging not messaging
+- Don't use `eval`;
+- Focus on logging not messaging;
+- Try to avoid sourcing of config files: use json with `jq`;
 
 ## Inspired with
 - [BSFL](https://github.com/SkypLabs/bsfl)
